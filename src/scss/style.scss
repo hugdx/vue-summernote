@@ -1,0 +1,15 @@
+$font_path: './../fonts' !default;
+
+@font-face {
+  font-family: "summernote";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("#{$font_path}/summernote.eot");
+  src: url("#{$font_path}/summernote.eot?#iefix") format("embedded-opentype"),
+    url("#{$font_path}/summernote.woff2") format("woff2"),
+    url("#{$font_path}/summernote.woff") format("woff"),
+    url("#{$font_path}/summernote.ttf") format("truetype");
+}
+
+@import "./summernote-lite.css";
